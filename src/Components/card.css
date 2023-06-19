@@ -1,0 +1,39 @@
+.card{
+    padding-top: 100px;
+    border-radius: 10px;
+    color:white;
+    font-weight: 400;
+    transition: all 150ms ease-in-out;
+}
+.card img{
+    height:60%;
+    width:60%;
+    border-radius: 5px;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+.card h2{
+    padding: 20px;
+    margin:3px;
+}
+
+a{
+
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+    margin-top: 50px;
+    color:white;
+}
+
+a:hover{
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+}
+

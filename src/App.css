@@ -1,0 +1,39 @@
+.App {
+  max-width: 100wh;
+  overflow-x: hidden;
+}
+
+.App-header{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.App-header input{
+  margin-top: 50px;
+  width: 400px;
+  border-radius: 5px;
+  padding:10px;
+}
+.App-header button{
+  width:100px;
+  border-radius: 5px;
+  padding:10px;
+  font-weight: bold;
+}
+.App-header button:hover{
+  background-color: coral;
+  color:white;
+  font-weight: bolder;
+}
+.App-header Link{
+  color:white;
+  font-weight: bolder;
+}
+
+.cardWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 0.5rem;
+}
